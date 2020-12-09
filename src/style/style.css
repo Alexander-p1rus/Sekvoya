@@ -1,0 +1,177 @@
+body {
+    font-family: 'FuturaPT-heavy';
+    color: #00acaa;
+    padding-top: 20px;
+}
+
+
+.container {
+    max-width: 1170px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+}
+
+.information a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header .logo img {
+    width: 348px;
+    height: 70px;
+}
+
+.info .menu img {
+    width: 47px;
+    height: 24px;
+}
+
+.info .menu {
+    margin-right: 25px;
+
+}
+
+.info .number {
+    margin-right: 25px;
+    font-family: "FuturaPT-heavy";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    text-align: center;
+}
+
+.info .button button {
+    padding: 19px 40px;
+    color: #00acaa;
+    font-family: "FuturaPT-heavy";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    border: 1px solid #00acaa;
+    background-color: #ffffff;
+}
+
+.information {
+    margin-top: 20px;
+    background: #2f8073 url("../img/bcg_title.png") no-repeat;
+    background-size: cover;
+}
+
+.title {
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.news {
+    color: #ffffff;
+    font-family: "FuturaPT-heavy";
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: right;
+}
+
+.navigation {
+    color: #ffffff;
+    font-family: "FuturaPT-Book";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal
+}
+
+.main-section {
+    height: 150px;
+    background-color: #a8e9e6;
+}
+
+.flower {
+    background: #2f8073 url("../img/bcg_title.png") no-repeat;
+    height: 150px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer .logo img {
+    width: 300px;
+    height: 54px;
+    margin-right: 100px;
+}
+
+.footer-navigation{
+    margin-right: 30px;
+}
+
+.footer-navigation__grid {
+    display: grid;
+    grid-row-gap: 25px;
+    grid-column-gap: 70px;
+    grid-template-columns: repeat(3, 120px);
+}
+
+.footer .number {
+    color: #00acaa;
+    font-family: "FuturaPT-heavy";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-right: 49px ;
+}
+
+.footer button{
+    padding: 19px 40px;
+    color: #00acaa;
+    font-family: "FuturaPT-heavy";
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    border: 1px solid #00acaa;
+    background-color: #ffffff;
+}
+
+.footer li{
+    list-style-type:none;
+    text-decoration-line: none;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #00acaa;
+    font-family: "FuturaPT-Book";
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+
+
